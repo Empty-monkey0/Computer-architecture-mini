@@ -1,0 +1,160 @@
+$date
+	Tue Oct 14 17:42:36 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module tb $end
+$var wire 1 ! Fdut $end
+$var reg 1 " A $end
+$var reg 1 # B $end
+$var reg 1 $ C $end
+$var real 1 % INTERVAL_NS $end
+$var integer 32 & i [31:0] $end
+$scope function golden $end
+$upscope $end
+$scope module dut $end
+$var wire 1 " A $end
+$var wire 1 # B $end
+$var wire 1 $ C $end
+$var wire 1 ! F $end
+$var wire 1 ' m1 $end
+$var wire 1 ( m3 $end
+$var wire 1 ) m4 $end
+$var wire 1 * m6 $end
+$var wire 1 + nA $end
+$var wire 1 , nB $end
+$var wire 1 - nC $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+x-
+x,
+x+
+x*
+x)
+x(
+x'
+bx &
+r15.1 %
+0$
+0#
+0"
+x!
+$end
+#5000
+1-
+1,
+1+
+#10000
+0*
+0)
+0(
+0'
+#15100
+1#
+b0 &
+#20000
+0!
+#20100
+0,
+#30200
+1"
+1$
+b1 &
+#35200
+0+
+0-
+#45300
+0"
+0#
+b10 &
+#50300
+1+
+1,
+#60300
+1'
+#60400
+1"
+0$
+b11 &
+#65400
+0+
+1-
+#70300
+1!
+#70400
+0'
+#75400
+1)
+#75500
+0"
+1#
+1$
+b100 &
+#80500
+1+
+0,
+0-
+#85500
+0)
+#90500
+1(
+#90600
+0#
+0$
+b101 &
+#95600
+1,
+1-
+#100600
+0(
+#105700
+1"
+1#
+b110 &
+#110600
+0!
+#110700
+0+
+0,
+#115700
+1*
+#120800
+0#
+1$
+b111 &
+#125700
+1!
+#125800
+1,
+0-
+#130800
+0*
+#135900
+0"
+1#
+b1000 &
+#140800
+0!
+#140900
+1+
+0,
+#150900
+1(
+#151000
+0$
+b1001 &
+#156000
+1-
+#160900
+1!
+#161000
+0(
+#166100
+b1010 &
